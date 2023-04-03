@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "835856906562",
+    "project_id": "todome-ea4e4",
+    "storage_bucket": "todome-ea4e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835856906562:android:89725f983c935cd7f770db",
+        "android_client_info": {
+          "package_name": "com.brian593.ToDoMe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835856906562-kbropluk9er3qnos7k949lbbn98o4pmg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaslCtIz-GXfY2ozqITyOKM-F_YQgGdqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835856906562-kbropluk9er3qnos7k949lbbn98o4pmg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
