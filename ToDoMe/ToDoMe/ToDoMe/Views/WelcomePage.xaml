@@ -1,18 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
              x:Class="ToDoMe.Views.WelcomePage"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <Grid
             BackgroundColor="{AppThemeBinding Light={StaticResource LightPageBackgroundColor}, Dark={StaticResource DarkPageBackgroundColor}}"
             RowDefinitions="*, Auto, Auto, Auto">
-            <Image
+            <!--<Image
                 Grid.Row="0"
                 Aspect="AspectFit"
                 Source="welcome.png"
                 HorizontalOptions="EndAndExpand"
-                Margin="20, 0, 0, 0"></Image>
+                Margin="20, 0, 0, 0"></Image>-->
+            <forms:AnimationView 
+             Grid.Row="0"
+             x:Name="animationView" 
+             Animation="welcome.json"
+             AutoPlay="True"
+             RepeatMode="Infinite"
+             CacheComposition="True"
+             VerticalOptions="FillAndExpand" 
+             HorizontalOptions="FillAndExpand" />
             <Label
                 Grid.Row="1"
                 HorizontalTextAlignment="Center"

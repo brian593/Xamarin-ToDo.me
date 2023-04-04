@@ -1,14 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <StackLayout xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" 
              x:Class="ToDoMe.Views.Fragments.ZeroStateView"
             HorizontalOptions="Center"
             VerticalOptions="Center"
             Margin="100, -50, 100, 0">
-        <Image
+        <!--<Image
             Source="flame.png"
             WidthRequest="200"
-            HeightRequest="200"></Image>
+            HeightRequest="200"></Image>-->
+        <forms:AnimationView
+            x:Name="animationView"
+            Animation="empty.json"
+            AnimationSource="AssetOrBundle"
+            RepeatMode="Infinite"
+            VerticalOptions="FillAndExpand"
+            WidthRequest="200"
+            HeightRequest="200"
+            HorizontalOptions="FillAndExpand" />
+
         <Label
             HorizontalTextAlignment="Center"
             Text="Vacio"

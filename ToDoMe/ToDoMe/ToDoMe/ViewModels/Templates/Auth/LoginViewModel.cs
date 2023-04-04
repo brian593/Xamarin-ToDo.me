@@ -121,7 +121,7 @@ namespace ToDoMe.ViewModels.Templates.Auth
         {
             try
             {
-                _eventAggregator.GetEvent<SwitchViewEvent>().Publish("Reset");
+                _eventAggregator.GetEvent<SwitchViewEvent>().Publish("Reinicio");
             }
             catch (Exception ex) 
             {

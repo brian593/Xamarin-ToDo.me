@@ -3,6 +3,7 @@ using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
 using Firebase;
+using Lottie.Forms.Platforms.Android;
 using ToDoMe.Droid.Auth;
 
 namespace ToDoMe.Droid
